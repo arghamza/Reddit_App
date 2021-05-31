@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+  background-color: #070707fd;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  background-color: transparent;
+  width: 70px;
+  height: auto;
+  position: relative;
+  top: 10px;
+}
+
+.articles {
+  background-color: transparent;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: grid;
+  grid-gap: 50px;
+  justify-content: center space-around;
+
+  box-shadow: black;
+  grid-template-columns: auto auto auto;
+}
+.articles article {
+  box-shadow: 0 4px 8px 0 #000000ad, 0 6px 20px 0 #000000e1;
+  padding: 30px 15px;
+  background-color: #181818;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  padding-top: 5px;
+}
+
+.articles article a {
+  text-decoration: none;
+}
+
+.articles article h3 {
+  margin-bottom: 20px;
+  color: #fb5607;
+  background-color: transparent;
+}
+
+.articles article:hover {
+  background-image: linear-gradient(to left, #fb5607, #b64e11);
+  transform: scale(1.08);
+}
+
+.articles article:hover h3 {
+  color: #fff;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.savedBtn {
+  cursor: pointer;
+  background-color: transparent;
+  display: block;
+  width: fit-content;
+  float: right;
+  color: rgb(151, 148, 148);
+  transition: 0.2s;
+}
+svg {
+  border-style: none;
+  background-color: transparent;
+}
+svg:hover {
+  color: white;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 50px;
+  height: 50px;
+}
+video {
+  background-color: transparent;
+  padding: 0px;
+}
+.video {
+  padding-top: 0px;
+}
+
+.btnArt {
+  padding: 8px 15px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  background-color: #2b2929;
+  color: white;
+  width: 120px;
+  height: 50px;
+  margin-top: -7px;
+}
+.btnArt:hover {
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+  background: #6b2707;
+  color: white;
+  transition: 250ms;
+}
+@media screen and (max-width: 960px) {
+  .articles {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .articles {
+    grid-template-columns: auto;
+  }
+}

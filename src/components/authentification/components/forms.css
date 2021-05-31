@@ -1,0 +1,75 @@
+.sign {
+  display: inline-block;
+}
+.sign-form {
+  width: 320px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 #000000ad, 0 6px 20px 0 #000000e1;
+  padding: 10px;
+  background-color: #181818;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: auto;
+}
+h1 {
+  color: #fb5607;
+}
+input {
+  background-color: rgb(39, 39, 39);
+  border: none;
+  padding: 12px 15px;
+  margin: 10px 0;
+  width: 70%;
+  border-radius: 5px;
+  color: white;
+}
+
+.sign-btn {
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(39, 39, 39);
+  color: #fb5607;
+  width: 30%;
+  height: auto;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+.sign-btn:hover {
+  transform: scale(1.08);
+  background-color: rgba(255, 251, 251, 0.589);
+}
+span {
+  color: #979494;
+  font-size: 20px;
+}
+.fab {
+  color: #fb5607;
+  font-size: 30px;
+}
+span:hover {
+  color: #c9c9c9;
+  text-decoration: underline;
+}
+p {
+  font-weight: bolder;
+  color: #c9c9c9;
+  font-size: 18px;
+}
+.signinhere {
+  color: #f16202;
+  font-size: 15px;
+}
+.forgotpassword {
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+  color: #f16202;
+  text-decoration: underline;
+  font-size: 15px;
+}
+.error {
+  color: red;
+}
